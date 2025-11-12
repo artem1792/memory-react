@@ -11,7 +11,7 @@ export default function Grid() {
             <div className="container">
                 {
                     images.map((item) => (
-                        <Card key={item.id} src={item.url} alt="" count={count} setCount={setCount}/>
+                        <Card key={item.id} id={item.id} src={item.url} alt="" count={count} setCount={setCount}/>
                     ))
                 }
             </div>
